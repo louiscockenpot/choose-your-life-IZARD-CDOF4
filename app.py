@@ -75,7 +75,7 @@ def forest_adventure():
                 time.sleep(2)
                 print("Why would you want to go back in the forest. It's scary and weird people hiddes in it.")
                 print("A psyco stabbs you to death :(")
-                resolution("win")
+                resolution("lose")
 
 
             elif shortcut =="2": 
