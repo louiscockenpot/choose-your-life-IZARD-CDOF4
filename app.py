@@ -78,7 +78,7 @@ def forest_adventure():
         enemy_choice = encounter_enemy()
         if enemy_choice == "1":
             print("You successfully scare away the wild animal and continue your run.")
-            resolution("win")
+       
         else:
             print("The wild animal blocks your way, and jumps on you.")
             resolution("lose")
